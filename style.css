@@ -1,0 +1,112 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #EAEAEA;
+    color: #111;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    border-bottom: 4px solid #111;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    letter-spacing: -1px;
+}
+
+table {
+    width: 100%;
+    background-color: #FFF;
+    border-collapse: collapse;
+    border: 2px solid #111;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #111;
+}
+
+th {
+    background-color: #111;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: 1px solid #555;
+}
+
+tr:hover {
+    background-color: #F5F5F5;
+}
+
+a[style*="color:red;"] {
+    background-color: #FF4500 !important;
+    color: #FFF !important;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+a[style*="color:red;"]:hover {
+    background-color: #111 !important;
+}
+
+input[type="text"],
+select {
+    padding: 8px;
+    margin: 5px 5px 5px 0;
+    border: 2px solid #111;
+    border-radius: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFF;
+}
+
+input[type="text"]:focus,
+select:focus {
+    background-color: #FFFFE0;
+    outline: none;
+}
+
+button {
+    background-color: #111;
+    color: #FFF;
+    border: 2px solid #111;
+    padding: 8px 16px;
+    border-radius: 0;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #111;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #111;
+    margin: 40px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
