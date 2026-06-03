@@ -25,7 +25,7 @@ $libri = $stmt->fetchAll();
     <h1>Biblioteca Aperta</h1>
     <hr>
 
-    <h2>Tutti i Libri</h2>
+    <h2>Libri Disponibili</h2>
 
     <table border="1" cellpadding="5" cellspacing="0">
         <tr>
