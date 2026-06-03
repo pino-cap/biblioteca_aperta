@@ -106,4 +106,3 @@ $libri = $stmt->fetchAll();
 </body>
 
 </html>
-</html>
