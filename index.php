@@ -16,13 +16,16 @@ $libri = $stmt->fetchAll();
 
 <head>
     <meta charset="UTF-8">
-    <title>Lista dei Libri</title>
+    <title>Biblioteca Aperta - Lista dei Libri</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Tutti i Libri</h1>
+    <h1>Biblioteca Aperta</h1>
+    <hr>
+
+    <h2>Tutti i Libri</h2>
 
     <table border="1" cellpadding="5" cellspacing="0">
         <tr>
@@ -102,4 +105,5 @@ $libri = $stmt->fetchAll();
 
 </body>
 
+</html>
 </html>
